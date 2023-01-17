@@ -1,3 +1,6 @@
+<!-- /products/categories
+fetch('https://fakestoreapi.com//products/categories') -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,32 +8,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #navbar{
-            margin-bottom: 10px ;
-            position: sticky;
-            top: -10px;
-            display: flex;
-            justify-content: space-between;
-            background-color: aqua;
-            align-items: center;
-            padding: 10px;
-        }
-    </style>
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="nav_container">
+<div id="container">
 
-    </div>
+</div>
+<div id="main"></div>
 </body>
 </html>
 
-<script type="module" >
-
-import navbar from './import Export/navbar.js'
-console.log("navbar:",navbar);
-
-let container = document.getElementById("nav_container")
-container.innerHTML= navbar()
+<script type="module" src="index.js">
 
 </script>

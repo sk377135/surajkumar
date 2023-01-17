@@ -1,0 +1,93 @@
+
+#navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 5px 13% 5px 12%;
+    position: sticky;
+    top: -10px;
+    width: 100wh;
+    height: 5hv;
+    text-align: center;
+    align-items: center;
+    background-color: #2874f0;
+    color: white;
+}
+
+#nav_content{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+
+}
+input{
+    width: 500px;
+    padding: 7px;
+    align-items: center;
+    align-content: center;
+}
+li{
+    text-decoration: none;
+}
+#nav{
+    display: flex;
+    padding: 5px 13% 5px 12%;
+    justify-content: space-between;
+    border: 1px solid red;
+    text-align: center;
+}
+#nav img{
+    width: 50%;
+}
+#options{
+    display: flex;
+    gap: 20px;
+
+}
+#main{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    text-align: center;
+}
+.box{
+    
+    text-align: center;
+    font-size: 10px;
+    font-weight:lighter;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: auto;
+}
+
+.box img{
+width: 80%;
+height: 70%;
+}
+/* ///////////////////////////////////signUp////////////// */
+
+#signup{
+    position: absolute;
+    left: 40vw;
+    top: 30vh;
+    width: 200px;
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    text-align: center;
+    padding: 20px;
+    
+}
+#signIn{
+    position: absolute;
+    left: 40vw;
+    top: 30vh;
+    width: 200px;
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    text-align: center;
+    padding: 20px;
+    
+}
