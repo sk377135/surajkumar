@@ -16,8 +16,8 @@ function navbar(){
             <ul id="nav_content">
                 <li>Login</li>
                 <li>Become a seller</li>
-                <li>More</li>
-                <li>Cart</li>
+                <li >More⌵</li>
+                <li>🛒Cart</li>
             </ul>
         </div>
     </div>
